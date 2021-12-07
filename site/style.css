@@ -1,0 +1,55 @@
+.dark-mode {
+    background-color: #2d2d2d;
+    color: white;
+}
+button {
+    text-decoration: none;
+    color: none;
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+footer a {
+    list-style: none;
+}
+a:link a:visited {
+    text-decoration: none;
+    color: none;
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+a:hover a:active {
+    color: purple;
+}
+header li:nth-child(3) {
+    font-size: 10px;
+}
+h1 {
+    color: aqua;
+    text-align: center;
+}
+div, .green {
+    color: green;
+}
+/*element with id="name"*/
+#name {
+    color: yellow;
+    font-size: large;
+    font-weight: 100;
+    opacity: .7;
+    font-style: italic;
+}
+h1.small {
+    font-size: 10px;
+}
+/*every p inside a div directly*/
+div > p {
+    color: red;
+}
+/*every p inside a div even if inside another tag*/
+div p {
+    color: orange;
+}
